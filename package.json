@@ -1,0 +1,17 @@
+{
+  "name": "webpack_app",
+  "version": "1.0.0",
+  "description": "Sample Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",    "build": "webpack"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "css": "^3.0.0",
+    "jquery": "^3.6.0",
+    "webpack": "^5.70.0"
+  }
+}
